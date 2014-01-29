@@ -14,7 +14,7 @@ A demo of Bias-Matrix-Factorization for collaborative filtering, sovled with SGD
     │   ├── new_ratings.dat
     │   ├── ratings_new.dat
     ├── README
-    ├── SGD.cpp
+    ├── mf.cpp
 
 ### Usage
 
