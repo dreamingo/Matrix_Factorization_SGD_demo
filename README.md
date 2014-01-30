@@ -22,3 +22,7 @@ A demo of Bias-Matrix-Factorization for collaborative filtering, sovled with SGD
     ./mf
 
     
+### Performance
+
+    Use python to random shuffle the ratings, and use 4/5 of the record as trainning set and the remain as a validation set;
+    The best performance with RMSE 0.8544

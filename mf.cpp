@@ -49,10 +49,10 @@ const int record_num = 1000209;     /* The number of the ratings*/
 int train_num;
 
 const int K = 40;                   /* The number of the latent factor*/
-const int max_iter = 300;           /* Maximum iteration*/
+const int max_iter = 100;           /* Maximum iteration*/
 const double l_rate = 0.002;         /* learning rate*/
-const double lamdba = 1.5;         /* Parameter for regularization*/
-const double bias_reg = 0.02;
+const double lamdba = 0.06;         /* Parameter for regularization*/
+const double bias_reg = 0.002;
 const double tol = 0.1;             /* Tolerance for the stop criterion*/
 double average;
 
